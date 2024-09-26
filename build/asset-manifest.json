@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/levelUP/static/css/main.b8cffc9f.css",
+    "main.js": "/levelUP/static/js/main.6b3f1b5e.js",
+    "static/media/course2.png": "/levelUP/static/media/course2.f2fae223a8ddc46e2319.png",
+    "static/media/about3.png": "/levelUP/static/media/about3.2041ca4ab388e41f4817.png",
+    "static/media/s3.png": "/levelUP/static/media/s3.9677969b506d17976972.png",
+    "static/media/course1.png": "/levelUP/static/media/course1.499673142103916c4407.png",
+    "static/media/course3.png": "/levelUP/static/media/course3.670bd2504229a2f08969.png",
+    "static/media/s1.jpg": "/levelUP/static/media/s1.d1555b0fea3d0e4df3a2.jpg",
+    "static/media/s2.jpg": "/levelUP/static/media/s2.1cf1e43739d51c1416ae.jpg",
+    "static/media/about.jpg": "/levelUP/static/media/about.d612ed90133bcd00099b.jpg",
+    "static/media/hero15.png": "/levelUP/static/media/hero15.a1e7fada0e7b296e94fd.png",
+    "index.html": "/levelUP/index.html",
+    "main.b8cffc9f.css.map": "/levelUP/static/css/main.b8cffc9f.css.map",
+    "main.6b3f1b5e.js.map": "/levelUP/static/js/main.6b3f1b5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8cffc9f.css",
+    "static/js/main.6b3f1b5e.js"
+  ]
+}

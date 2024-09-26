@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make the header sticky */
+header {
+    @apply sticky top-0 z-50;
+}
+
+header ul li {
+    @apply px-2;
+}
+
+.bg-primary1 {
+    background-color: rgb(0, 0, 0);
+}
+
+.bg-primary {
+    background: rgb(245, 245, 245);
+    /* background: rgb(20, 180, 62); */
+}
+
+.bg-forn {
+    color: #6c757d;
+}
+
+.bg-secondary1 {
+    background: #f7f3f3;
+}
+
+.bg-secondary {
+    background: #318320;
+}
+
+.mobile-nav {
+    @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4;
+}
+
+.mobile-nav li {
+    @apply w-full h-full text-center border-b-2;
+}
+
+.project-desc {
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+}
+
+.btn {
+    @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add styles for the nav-link */
+.nav-link {
+    @apply text-white transition-colors duration-300 ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    @apply text-blue-700;
+}
