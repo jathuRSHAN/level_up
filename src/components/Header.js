@@ -1,5 +1,8 @@
+// 
+
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,24 +15,24 @@ export default function Header() {
             <nav className="hidden md:block">
                 <ul className="flex text-black">
                     <li>
-                        <a className="nav-link" href="/">
+                        <Link className="nav-link" to="/">
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="nav-link" href="/about">
+                        <Link className="nav-link" to="/about">
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="nav-link" href="/projects">
+                        <Link className="nav-link" to="/projects">
                             Courses
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="nav-link" href="/contact">
+                        <Link className="nav-link" to="/contact">
                             Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

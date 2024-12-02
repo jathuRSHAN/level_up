@@ -24,29 +24,29 @@ export default function Projects() {
                 description: 'Join us today and discover how you can transform your potential into professional success.',
                 link: '/'
             },
-            // {
-            //     name: 'course 4',
-            //     image: websiteImg1,
-            //     description: 'Join us today and discover how you can transform your potential into professional success.',
-            //     link: '#'
-            // },
-            // {
-            //     name: 'course 5',
-            //     image: websiteImg2,
-            //     description: 'Join us today and discover how you can transform your potential into professional success.',
-            //     link: '#'
-            // },
-            // {
-            //     name: 'course 6',
-            //     image: websiteImg3,
-            //     description: 'Join us today and discover how you can transform your potential into professional success.',
-            //     link: '#'
-            // }
+            {
+                name: 'course 4',
+                image: websiteImg1,
+                description: 'Join us today and discover how you can transform your potential into professional success.',
+                link: '#'
+            },
+            {
+                name: 'course 5',
+                image: websiteImg2,
+                description: 'Join us today and discover how you can transform your potential into professional success.',
+                link: '#'
+            },
+            {
+                name: 'course 6',
+                image: websiteImg3,
+                description: 'Join us today and discover how you can transform your potential into professional success.',
+                link: '#'
+            }
         ]
     };
 
     return (
-        <section id='projects' className="flex flex-col py-0 px-5 justify-center bg-primary text-black">
+        <section id='projects' className="flex flex-col py-10 px-5 justify-center bg-primary text-black">
             <div className="w-full">
                 <div className="flex flex-col px-10 py-5">
                     <h1 className='text-3xl border-b-2 border-bg-forn mb-5 w-[370px] font-bold text-black '>Explore Our Courses</h1>
